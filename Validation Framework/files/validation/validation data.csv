@@ -1,0 +1,24 @@
+No.,Project Functional Requirement,Functional Requirement Details,Pricing - Etradepad,Compliance check,Back to Back,Pnl - Simulation View,user definable fields,OSP,Events
+55,IRS,"Ability to book, price, mark-to-the-market, and calculate P/L of IRS in accordance with normal market practice, TMB practice, and related standard and regulation. All functions applied for IRS and CRS must be usable as well as or better than current version.
+Ability to book IRS (float/float, fixed/float)",1,0,0,0,0,0,0
+56,ND IRS,"Ability to book, price, mark-to-the-market, and calculate P/L of NDS in accordance with normal market practice, TMB practice, and related standard and regulation. All functions applied for IRS and CRS must be usable as well as or better than current version.
+Ability to book NDS (float/float, fixed/float)",1,0,0,0,0,0,0
+57,CCS,"Ability to book, price, mark-to-the-market, and calculate P/L of CRS in accordance with normal market practice, TMB practice, and related standard and regulation. All functions applied for IRS and CRS must be usable as well as or better than current version.",1,0,0,0,0,0,0
+58,,"Ability to book CCS (fixed/fixed, float/float, fixed/float)",1,0,0,0,0,0,0
+59,Amortization,"Ability to book Amortized IRS, NDS and CCS",1,0,0,0,0,0,0
+60,Amortized with grace period,Amortise with grace period to be supported,1,0,0,0,0,0,0
+61,Accreting,"Ability to book Accreting IRS, NDS and CCS",1,0,0,0,0,0,0
+62,Model Change,"When change model, Risk simulation should automatically take the new model into account",0,0,0,1,0,0,0
+63,Market Operations,"Ability to handle following market operations:
+Cancellation
+Cancel and Reissue
+Fixing
+Early termination
+Expiry
+Restructure
+Exercise",0,0,0,0,0,0,1
+64,Simulation View,"Following simulation view should be available for real time monitoring:
+LT Swap MV
+LT Swap MV2",0,0,0,1,0,0,0
+65,Reporting,"Following Reporting should be available:
+Swap Hedging for Banking Books",0,0,0,1,0,0,0
