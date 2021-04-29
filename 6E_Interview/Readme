@@ -1,0 +1,19 @@
+Imprementation:
+1. Import necessary packages
+2. Get the embedding matrix in numpy form from the glove.840B.300d.txt(remove punctuation and stopwords)
+3. Get word vector from the embedding matrix
+4. Process the json file and save all the data set into different dataframes
+5. For the sentences, remove the punctuation and stopword,change to lower case and do tokenization.
+6. Create extra column of cutword(token) and value(word vector mean value) for the dataframe for further calculation
+7. Create training/validation/testing data and label variable(both one hot code and normal version)
+8. Get vocabulary size and max sentence length for the input dimension of NN
+9. Use tokenizer to get word_index and word count in order to get sentence text sequence
+10.Build NN model with Embedding,lstm and dense, and fit with text sequence and one hot label
+11.Build another similar NN model with Embedding word imported(NN details are more clear in the code itself)
+12.Build decision tree model and fit with normal label
+13.Build SVM model and fit with normal label
+14.Generate prediction output, the testing result will be saved to result.txt.
+
+Usage of packages:
+keras,numpy,pandas,sklearn,nltk,string
+
